@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className='mainbg min-h-screen h-auto w-full flex flex-col items-center text-center justify-center'>
-        <div className='backdrop-blur-lg flex flex-col h-auto w-96 m-10 border-2 rounded border-pink-700 max-sm:w-auto '>
+        <div className='backdrop-blur-lg flex flex-col h-auto w-96 m-10 border-2 rounded border-pink-700 max-sm:w-auto max-sm:m-2 '>
           <Header />
           <div className='flex justify-around  mb-4 mx-10 max-sm:mx-3'>
             <Social link={facebook} tittle="https://www.facebook.com/profile.php?id=100014218954756" />
