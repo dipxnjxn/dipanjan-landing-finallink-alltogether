@@ -21,7 +21,7 @@ function App() {
             <Social link={linkedin} tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
             <Social link={github} tittle="https://github.com/dipxnjxn" />
           </div>
-          <div className='max-sm:text-base'>
+          <div className='max-sm:text-sm'>
             <Vercard tittle="Check-out my blog" link="/lost" />
             <Vercard tittle="Buy me a coffee" link="/lost" />
             <Vercard tittle="My youtube (anime content)" link="https://www.youtube.com/@Animoxx07/featured" />
