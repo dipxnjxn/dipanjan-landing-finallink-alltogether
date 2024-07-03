@@ -3,6 +3,7 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Social from './components/social/Social'
 import Vercard from './components/vercard/Vercard'
+import facebook from './assets/icon/facebook.png'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <div className='backdrop-blur-lg flex flex-col h-auto w-96 m-10 border-2 rounded border-pink-700 max-sm:w-auto '>
           <Header />
           <div className='flex justify-around  mb-4 mx-10 max-sm:mx-3'>
-            <Social link="src\assets\icon\facebook.png" tittle="https://www.facebook.com/profile.php?id=100014218954756" />
+            <Social link={facebook} tittle="https://www.facebook.com/profile.php?id=100014218954756" />
             <Social link="src\assets\icon\instagram.png" tittle="https://www.instagram.com/dipxnjxn_/" />
             <Social link="src\assets\icon\linkedin.png" tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
             <Social link="src\assets\icon\github.png" tittle="https://github.com/dipxnjxn" />
