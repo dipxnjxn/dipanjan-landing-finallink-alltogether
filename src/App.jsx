@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className='mainbg min-h-screen h-auto w-full flex flex-col items-center text-center justify-center'>
-        <div className='backdrop-blur-lg flex flex-col h-auto w-96 m-10 border-2 rounded border-pink-700 max-sm:w-auto max-sm:m-2 max-sm:text-lg '>
+        <div className='backdrop-blur-lg flex flex-col h-auto w-96 m-10 border-2 rounded border-pink-700 max-sm:w-auto max-sm:m-2'>
           <Header />
           <div className='flex justify-around  mb-4 mx-10 max-sm:mx-3'>
             <Social link={facebook} tittle="https://www.facebook.com/profile.php?id=100014218954756" />
@@ -21,7 +21,7 @@ function App() {
             <Social link={linkedin} tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
             <Social link={github} tittle="https://github.com/dipxnjxn" />
           </div>
-          <div className='max-sm:text-sm'>
+          <div className='max-sm:text-base'>
             <Vercard tittle="Check-out my blog" link="/lost" />
             <Vercard tittle="Buy me a coffee" link="/lost" />
             <Vercard tittle="My youtube (anime content)" link="https://www.youtube.com/@Animoxx07/featured" />
