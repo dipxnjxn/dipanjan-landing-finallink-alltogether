@@ -4,7 +4,10 @@ import Footer from './components/footer/Footer'
 import Social from './components/social/Social'
 import Vercard from './components/vercard/Vercard'
 import facebook from './assets/icon/facebook.png'
-import insta from './assets/icon/instagram.png'
+import instagram from './assets/icon/instagram.png'
+import linkedin from './assets/icon/linkedin.png'
+import github from './assets/icon/github.png'
+
 
 function App() {
   return (
@@ -14,9 +17,9 @@ function App() {
           <Header />
           <div className='flex justify-around  mb-4 mx-10 max-sm:mx-3'>
             <Social link={facebook} tittle="https://www.facebook.com/profile.php?id=100014218954756" />
-            <Social link={insta} tittle="https://www.instagram.com/dipxnjxn_/" />
-            <Social link="src\assets\icon\linkedin.png" tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
-            <Social link="./assets/icon/github.png" tittle="https://github.com/dipxnjxn" />
+            <Social link={instagram} tittle="https://www.instagram.com/dipxnjxn_/" />
+            <Social link={linkedin} tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
+            <Social link={github} tittle="https://github.com/dipxnjxn" />
           </div>
           <div className='max-sm:text-sm'>
             <Vercard tittle="Check-out my blog" link="/lost" />
