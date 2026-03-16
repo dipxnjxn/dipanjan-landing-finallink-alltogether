@@ -4,6 +4,10 @@
 
 
 /* for the comming-soon page */
+*{
+    overflow : null;
+}
+
 .center {
     background-image: url(./assets/imgs/mainbg.jpg);
     background-position: center;
